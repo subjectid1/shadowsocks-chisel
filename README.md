@@ -1,6 +1,6 @@
 shadowsocks-chisel
 ==================
-
+# chisel-heroku  [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 [shadowsocks](https://github.com/shadowsocks/shadowsocks-go) + [chisel](https://github.com/jpillora/chisel) = ❤❤
 
 ### Getting started
