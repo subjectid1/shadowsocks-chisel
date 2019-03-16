@@ -3,7 +3,7 @@ shadowsocks-chisel
 
 ### Getting started
 
-Make sure you have a working Docker installation (eg. `docker ps`) and that you’re logged in to Heroku (`heroku login`).
+Make sure you have a working Docker installation (电脑安装docker) and that you’re logged in to Heroku (`heroku login`).
 
 Log in to Container Registry:
 
