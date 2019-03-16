@@ -1,7 +1,5 @@
 shadowsocks-chisel
 ==================
-# chisel-heroku  [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-[shadowsocks](https://github.com/shadowsocks/shadowsocks-go) + [chisel](https://github.com/jpillora/chisel) = ❤❤
 
 ### Getting started
 
@@ -38,6 +36,8 @@ $ heroku container:push web
 ```
 
 Connect your `chisel` client:
+本地设备上要安装chisel和shadowsocks-go
+[shadowsocks](https://github.com/shadowsocks/shadowsocks-go) + [chisel](https://github.com/jpillora/chisel) = ❤❤
 
 ```
 $ chisel client --auth user:pass --keepalive 50s https://stormy-castle-77230.herokuapp.com 8388
