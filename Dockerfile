@@ -5,6 +5,6 @@ RUN curl -sSL https://github.com/mattn/goreman/releases/download/v0.0.10/goreman
 RUN chmod +x /bin/chisel /bin/shadowsocks-server /bin/goreman
 RUN useradd -m heroku
 USER heroku
-EXPOSE 5000
+EXPOSE 80
 COPY Procfile Procfile
 CMD goreman -b=$PORT start
